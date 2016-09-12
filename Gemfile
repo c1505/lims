@@ -29,6 +29,10 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'audited-activerecord', '~> 4.2', '>= 4.2.2'
 
+gem 'terminal-notifier-guard', '~> 1.6.1'
+
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -63,5 +67,3 @@ group :test do
   gem 'selenium-webdriver'
   gem "codeclimate-test-reporter", group: :test, require: nil
 end
-
-
