@@ -11,5 +11,12 @@ RSpec.feature "Assays", type: :feature do
       visit '/assays/new'
       expect(page).to have_content("New Assay")
     end
+
+    it "creats an assay" do
+      visit '/assays/new'
+      select "BCA", :from => "assay_name"
+      click_button('Create Assay')
+      expect(page).to have_content("BCA")
+    end
   end
 end
