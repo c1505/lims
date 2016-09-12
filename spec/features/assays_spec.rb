@@ -18,5 +18,11 @@ RSpec.feature "Assays", type: :feature do
       click_button('Create Assay')
       expect(page).to have_content("BCA")
     end
+
+    it "creats an assay with associations" do
+      pending
+    end
+
+    it "has validations"
   end
 end

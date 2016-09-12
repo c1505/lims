@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :text_results
+  resources :samples
   resources :assays
   resources :assays
   # The priority is based upon order of creation: first created -> highest priority.

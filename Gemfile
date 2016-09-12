@@ -33,6 +33,8 @@ gem 'terminal-notifier-guard', '~> 1.6.1'
 
 gem 'simple_form'
 
+gem 'paper_trail'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
