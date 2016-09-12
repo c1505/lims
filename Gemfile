@@ -27,6 +27,8 @@ gem 'devise'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
+gem 'audited-activerecord', '~> 4.2', '>= 4.2.2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -44,6 +46,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'launchy'
+  gem 'guard-rspec', require: false
 end
 
 group :development do
@@ -55,7 +58,6 @@ group :development do
 end
 
 group :test do
-  gem 'spinach-rails'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'selenium-webdriver'
