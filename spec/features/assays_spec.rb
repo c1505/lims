@@ -23,6 +23,7 @@ RSpec.feature "Assays", type: :feature do
       pending
     end
 
-    it "has validations"
+    it "has validations" do
+    end
   end
 end
