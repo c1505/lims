@@ -27,8 +27,6 @@ gem 'devise'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
-gem 'audited-activerecord', '~> 4.2', '>= 4.2.2'
-
 gem 'terminal-notifier-guard', '~> 1.6.1'
 
 gem 'simple_form'
